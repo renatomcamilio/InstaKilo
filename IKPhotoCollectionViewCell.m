@@ -8,6 +8,12 @@
 
 #import "IKPhotoCollectionViewCell.h"
 
+@interface IKPhotoCollectionViewCell ()
+
+@property (nonatomic, weak) IBOutlet UIImageView *photoImageView;
+
+@end
+
 @implementation IKPhotoCollectionViewCell
 
 - (void)setPhoto:(IKPhoto *)photo {

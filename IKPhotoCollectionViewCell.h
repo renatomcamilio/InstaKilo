@@ -12,7 +12,6 @@
 
 @interface IKPhotoCollectionViewCell : UICollectionViewCell
 
-@property (nonatomic, weak) IBOutlet UIImageView *photoImageView;
 @property (nonatomic, strong) IKPhoto *photo;
 
 - (void)setPhoto:(IKPhoto *)photo;
